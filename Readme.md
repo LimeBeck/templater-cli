@@ -8,7 +8,7 @@ Available CLI commands:
 
 ## Template bundle
 
-Template bundle is plain-zip archive
+Template bundle is plain-zip archive with `template_desc.json` in root
 
 `template-desc.json`
 ```jsonc
