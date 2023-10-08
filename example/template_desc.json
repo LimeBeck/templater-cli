@@ -1,0 +1,9 @@
+{
+    "identifier": "my-shiny-template",
+    "description": "My super shiny template",
+    "entrypoint": "index.html.ftl",
+    "type": "freemarker",
+    "tags": [
+        ""
+    ]
+}

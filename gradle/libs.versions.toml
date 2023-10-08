@@ -1,0 +1,31 @@
+[versions]
+
+templater-cli = "0.0.1"
+
+kotlin = "1.9.10"
+serialization = "1.6.0"
+coroutines = "1.7.3"
+ktor = "2.3.5"
+kxhtml = "0.9.1"
+freemarker = "2.3.32"
+
+[libraries]
+slf4j = { module = "org.slf4j:slf4j-api", version = "2.0.9" }
+logback = { module = "ch.qos.logback:logback-classic", version = "1.4.11" }
+clikt = { module = "com.github.ajalt.clikt:clikt", version = "4.2.1" }
+kxhtml-jvm = { module = "org.jetbrains.kotlinx:kotlinx-html-jvm", version.ref = "kxhtml" }
+kxhtml = { module = "org.jetbrains.kotlinx:kotlinx-html", version.ref = "kxhtml" }
+kotlin-serialization = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "serialization" }
+kotlin-coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
+uuid = { module = "com.benasher44:uuid", version = "0.8.0" }
+freemarker = { module = "org.freemarker:freemarker", version.ref = "freemarker" }
+tika = { module = "org.apache.tika:tika-core", version = "2.1.0" }
+
+[plugins]
+
+versions = { id = "com.github.ben-manes.versions", version = "0.48.0" }
+dokka = { id = "org.jetbrains.dokka", version = "1.9.0" }
+shadow = { id = "com.github.johnrengelman.shadow", version = "8.1.1" }
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+build-time-config = { id = "dev.limebeck.build-time-config", version = "2.0.0" }
