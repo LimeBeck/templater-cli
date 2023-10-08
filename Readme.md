@@ -41,6 +41,7 @@ Template bundle is plain-zip archive
 
 * Ko-Te renderer
 * PDF renderer
+* Add jsonschema to `template_desc.json` and validate `data.json` against it
 * Split renderer into libraries 
 * `Init` command for template creation 
 * Create installer
